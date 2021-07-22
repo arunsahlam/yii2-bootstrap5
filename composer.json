@@ -1,0 +1,34 @@
+{
+    "name": "arunsahlam/yii2-bootstrap5",
+    "description": "The Twitter Bootstrap 5 extension for the Yii framework",
+    "keywords": ["yii2", "bootstrap5"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Arun Sahlam",
+            "email": "arunsahlam@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/arunsahlam/yii2-bootstrap5/issues",
+        "source": "http://github.com/arunsahlam/yii2-bootstrap5"
+    },
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0",
+        "npm-asset/bootstrap": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arunsahlam\\bootstrap5\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
+{"mode":"full","isActive":false}
